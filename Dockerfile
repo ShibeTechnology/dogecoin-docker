@@ -14,4 +14,4 @@ RUN ln -s /usr/src/dogecoin-1.14.6/bin/dogecoin-cli /usr/bin/dogecoin-cli
 
 EXPOSE 22555 22556 44555 44556 18444 18332
 
-CMD ["dogecoind", "-printtoconsole", "-conf=/root/dogecoin.conf"]
+CMD ["dogecoind", "-printtoconsole", "-conf=/mnt/dogecoin.conf"]
